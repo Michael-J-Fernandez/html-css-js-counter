@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.app {
+  border: 2px solid black;
+  max-width: 25rem;
+  padding: .5em .5em 1em;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.display {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+button {
+  padding: .2em .8em;
+}
+
+.stars {
+  margin: 1em auto;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  padding: 10px;
+  border: 2px solid rgb(255, 213, 0);
+  border-radius: 30%;
+}
