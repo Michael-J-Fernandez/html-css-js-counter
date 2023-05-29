@@ -10,12 +10,14 @@ html,
 body {
   height: 100%;
   font-family: sans-serif;
+  padding-top: .5rem;
 }
 
 .app {
   border: 2px solid black;
   max-width: 25rem;
-  padding: .5em .5em 1em;
+  min-height: 95%;
+  padding: .5em .5em;
   margin: auto;
 }
 
